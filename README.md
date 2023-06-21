@@ -3,6 +3,7 @@
 # 10 exciting things you need to know about Bootstrap 5
 
 - Dropped the Support of jQuery and Outdated Browsers
+- New utilities (positioning, font size, border radius) ~ lesson 5
 - New SVG Icons Library
 - New Placeholder Component
 - New Offcanvas Component
