@@ -7,36 +7,104 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
     crossorigin="anonymous">
-</head>
+    <style>
+        section {
+            padding: 60px 0;
+        }
+        
+    </style>
+</head> 
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bolder text-secondary">Net Ninja Pro - the Book</span>
+            </a>
+            <!-- toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-toggler-icon"></span>
+            </button>
+
+
+            <!-- navbar links -->
+        </div>
+    </nav>
+
+
+    <!-- main image & intro text -->
+    <section id="intro">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+              <h1>
+                <div class="display-2">Black-Belt</div>
+                <div class="display-5 text-muted">Your Coding Skills</div>
+              </h1>
+              <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit.</p>
+              <a href="#pricing" class="btn btn-secondary btn-lg text-capitalize">buy now</a>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+            <img class="img-fluid" src="assets/ebook-cover.png" alt="ebook-cover">
+          </div>
+
+        </div>
+      </section>
+
+
+     <!-- pricing plans --> 
+     <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Pl ans</h2>
+                <p class="lead text-muted">Choosing a price to suit you.</p>
+            </div>
+        </div>
+        <div class="row my-5 align-items-center justify-content-center g-0">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Starter Edition</h4>
+                        <p class="lead card-subtitle">eBook download only</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-9 col-lg-4">
+                <div class="card border-primary border-2">
+                    <div class="card-header text-center text-primary">Most Popular</div>
+                    <div class="card-body text-center py-5">
+                        <h4 class="card-title">Complete Edition</h4>
+                        <p class="lead card-subtitle">eBook download & all updates</p>
+                        <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div> 
+
+             
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Ultimate Edition</h4>
+                        <p class="lead card-subtitle">download, updates & extras</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
 
 <body>
-    <!-- basic buttons -->
-    <div class="h2">Buttons</div>
 
-    <button class="btn btn-primary">click me</button>
-
-    <!-- anchor tags as buttons -->
-    <h2>Links as button</h2>
-    <a href="#home" class="btn btn-secondary">Home</a>
-
-    <!-- button sizes -->
-    <h2>Button sizes</h2>
-
-    <button class="btn btn-lg btn-info">large info button</button>
-    <button class="btn btn-sm btn-info">small info button</button>
-
-    <!-- outlined styles -->
-    <h2>Button styles</h2>
-    <button class="btn btn-outline-info">Read more</button>
-
-    <!-- button groups -->
-    <h2>Button groups</h2>
-
-    <div class="btn-group">
-        <a href="#" class="btn btn-primary">Home</a>
-        <a href="#" class="btn btn-danger">About</a>
-        <a href="#" class="btn btn-secondary">Contact</a>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
     crossorigin="anonymous"></script>   
